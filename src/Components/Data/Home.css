@@ -1,0 +1,15 @@
+.centered-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* This will make the box take up the full viewport height */
+    text-align: center;
+  }
+  
+  /* Additional styling for the image if needed */
+  .centered-box img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    margin-top: 20px; /* Adjust the margin as needed */
+    
+  }

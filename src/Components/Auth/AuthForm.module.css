@@ -1,0 +1,85 @@
+.auth {
+    width: 100%;
+    max-width: 27rem;
+    border-radius: 20px;
+    padding: 1rem;
+    background: #e607072f;
+    border: 2px  solid white;
+    text-align: center;
+  }
+  .container {
+    height: 100vh;
+    /* background-image: url('../Assets/social-media-marketing-concept-marketing-with-applications.jpg'); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth h1 {
+    text-align: center;
+    color: rgb(64, 247, 186);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .control {
+    margin-top: 3rem;
+  }
+  
+  .control label {
+
+    display: block;
+    color: rgb(200, 194, 236);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .control input {
+    margin-top: 1rem;
+    font: inherit;
+    background-color: #e7dede00;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  
+  .actions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font: inherit;
+    color: rgb(239, 241, 240);
+    background-color: #1229ad21;
+    border: 1px solid #3f4272be;
+    border-radius: 15px;
+    width: 80%;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: #5b6bb19d;
+    border-color: #4a6cac1c;
+  }
+  
+  .actions .toggle {
+    background-color: transparent;
+    color: #54e0d9;
+    border: none;
+  }
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: #d8d8d8;
+    zoom: 1.05;
+  }
+  .error{
+    color: #dcc3ec;
+  }

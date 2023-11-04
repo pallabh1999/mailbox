@@ -1,0 +1,52 @@
+.sendbox-card {
+    background-color: #0c3f2663;
+    border-radius: 10px;
+    margin: 2rem 5rem;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sendbox-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  
+  .sendbox-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sendbox-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #8f4040;
+  }
+  
+  .sendboxlk {
+    text-decoration: none;
+    color: #8ac091;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sendbox-details {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .sendbox-subject {
+    font-weight: bold;
+  }
+  
+  .sendbox-delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

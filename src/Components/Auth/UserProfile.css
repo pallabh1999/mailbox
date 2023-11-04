@@ -1,0 +1,71 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-label {
+    font-size: 20px;
+  }
+  Button{
+  align-content: center;
+  }
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-check-label {
+    margin-left: 5px;
+  }
+  
+  
+  
+  /* Submit button styles */
+  .form__submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form__submit-btn:hover {
+    background-color: #0056b3;
+  }
+  .center-button {
+    display: block;
+    margin: 0 auto;
+  }
+  /* Profile picture styles */
+  .profile_section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .img-thumbnail {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  /* File input styles */
+  .form-label[for="formFile"] {
+    margin-top: 15px;
+  }
+  
+  /* Checkbox styles */
+  .form-check-input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  

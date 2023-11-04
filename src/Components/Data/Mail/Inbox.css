@@ -1,0 +1,61 @@
+.InboxBody{
+    margin: 2rem 5rem;
+  }
+  .noMailbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh; 
+    text-align: center;
+  }
+  .noMailbox img {
+    max-width: 100%; 
+    margin-top: 2px; 
+  }
+  .Uemail-item{
+    background-color: #d14f5a2d;
+    margin-bottom: 10px;
+    padding: 10px 20px; /* Reduce horizontal padding */
+    border: 1px solid #05011a;
+    border-radius: 10px; /* Reduced border radius */
+    display: flex;  
+    align-items: center;
+    flex-direction: row;
+  }
+  .email-item {
+    background-color: #89d4731f;
+    margin-bottom: 10px;
+    padding: 10px 20px; /* Reduce horizontal padding */
+    border: 1px solid #05011a;
+    border-radius: 10px; /* Reduced border radius */
+    display: flex;  
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .dltBtn {
+    background: #d61f1f00;
+    border-radius: 3px;
+    font-size: larger;
+    padding: 5px 15px; /* Adjust padding for the delete button */
+  }
+  
+  .email-link {
+    text-decoration: none;
+    color: #b79df0;
+    flex: 1;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; 
+    margin-left: 0 px;
+    align-items: center;
+  }
+  
+  
+  .email-date {
+    font-size: 12px;
+    color: #a3fa51;
+  }
+  

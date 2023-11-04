@@ -1,0 +1,21 @@
+.card {
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .card-header {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin-top: 10px;
+  }
+  b{
+    float: left;
+  }
